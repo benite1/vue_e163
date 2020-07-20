@@ -20,12 +20,8 @@
             <v-text-field label="password" type="password" />
           </v-col>
         </v-row>
-        <v-btn
-          :disabled="!valid"
-          color="success"
-          class="mr-4"
-          @click="validate"
-        >
+        
+         <v-btn large color="purple" dark>
           Submit
           </v-btn>
       </v-container>
