@@ -1,8 +1,8 @@
 <template>
   <v-form v-model="valid">
     <center>
-        <br><br>
-<v-card width="1200" color="#709fb0">
+        <br>
+<v-card width="500" color="#709fb0">
       <br>
       <center><h1 v-t="'Register'" /></center>
       <v-container>
@@ -24,6 +24,7 @@
          <v-btn large color="purple" dark>
           Submit
           </v-btn>
+          <br><br>
       </v-container>
     </v-card>
     </center>
@@ -32,6 +33,7 @@
 
 <script>
 export default {
+    layout:"public",
   data: () => ({
     valid: false,
     firstname: '',
@@ -48,3 +50,4 @@ export default {
   }),
 }
 </script>
+
