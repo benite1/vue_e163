@@ -1,5 +1,5 @@
 <template>
-<v-app>
+<v-app id=colorbg>
   
    <!-- ใส่ข้อความ -->
   <v-main>
@@ -67,6 +67,6 @@
   }
 </script>
  <style>
- #app {
+ #colorbg {
  background: linear-gradient(to right, #0099ff 0%, #ff9999 100%);
  } </style>

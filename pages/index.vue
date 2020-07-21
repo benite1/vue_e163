@@ -5,9 +5,11 @@
       <h1 v-t="'สมุดบันทึกกิจกรรม'" />
     </div>
     <div class="my-2">
+      <nuxt-link to="login">
       <v-btn color="success" fab x-large dark>
         <v-icon>mdi-account-circle</v-icon>
       </v-btn>
+      </nuxt-link>
       <nuxt-link to="/activity/menu/">
         <v-btn class="my-2" fab x-large dark color="teal">
           <v-icon dark>
@@ -15,6 +17,8 @@
           </v-icon>
         </v-btn>
       </nuxt-link>
+
+     
     </div>
   </center>
 </template>
